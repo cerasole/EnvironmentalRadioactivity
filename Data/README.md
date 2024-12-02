@@ -7,3 +7,5 @@ To download from Google Colab, please use a command like this:
 
 List of files
  - nndc_nudat_data_export.csv, downloaded from https://www.nndc.bnl.gov/nudat3/
+
+ - GammaRAD5_ExampleFile.txt
