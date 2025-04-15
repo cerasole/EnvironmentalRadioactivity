@@ -183,10 +183,10 @@ V = np.where(
 )
 tau = 10
 tstart, tstop = 0., tau*10000.
-#Schrodinger_1Dbox (xmin, xmax, N, V, tau, tstop)
+Schrodinger_1Dbox (xmin, xmax, N, V, tau, tstop)
 outname = "schrodinger_1D_tunnel.gif"
 outname = "schrodinger_1D_tunnel.mp4"
-Schrodinger_1Dbox_animation (xmin, xmax, N, V, tau, tstop, outname)
+#Schrodinger_1Dbox_animation (xmin, xmax, N, V, tau, tstop, outname)
 
 # E = p**2 / (2*m) + h_bar**2 / (4 * m * sigma**2) =
 #   = 2.4e-37 J + 0.6e-37 J =
